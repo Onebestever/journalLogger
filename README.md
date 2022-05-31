@@ -7,3 +7,4 @@ Description: This is a fullstack application using node express, that lets you s
 
 TECH INCLUDED: HTML, CSS, JS,JSON, NODE.JS, EXPRESS
 # journalLogger
+# journalLogger
