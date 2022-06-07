@@ -40,8 +40,8 @@
                           <% } %>
                          
                         <li class="message">
-                          <p style="color: blue"><%= entries[i].date %><p>
-                          <p style="color: blue"><%= entries[i].log %></p>
+                          <p style="<%= entries[i].favorited ? 'color:blue' : '' %>"><%= entries[i].date %><p> 
+                          <p> <%= entries[i].log %></p> 
                           <p><%= entries[i].likes %></p>
                           <p class="hide"><%= entries[i]._id %></p>
                           <span><i class="fa fa-star" aria-hidden="true"></i></span>
